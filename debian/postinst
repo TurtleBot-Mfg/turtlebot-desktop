@@ -1,0 +1,16 @@
+#!/bin/bash
+
+case "$1" in
+    'configure')
+
+        xdg-desktop-menu install --mode system /usr/share/turtlebot-menus/ros-Robotics.directory /usr/share/turtlebot-menus/*.desktop
+	xdg-desktop-menu install --mode system /usr/share/applications/libreoffice-group.desktop
+	/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas
+#        xdg-desktop-icon install /usr/share/turtlebot-menus/turtlebot*.desktop
+
+        ;;
+
+    *)
+        ;;
+
+esac

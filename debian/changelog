@@ -1,0 +1,7 @@
+turtlebot-desktop (0.0.1) UNRELEASED; urgency=low
+
+  * Reinit repo for git-dch support
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 09 Jul 2012 20:07:03 +0000
+
+

@@ -1,0 +1,17 @@
+
+[Desktop Entry]
+Name=turtlebot-dashboard
+GenericName=TurtleBot Dashboard
+Comment=Dashboard for TurtleBot
+Icon=/usr/share/icons/TurtleBot/scalable/apps/turtlebot-dashboard.svg
+Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
+Terminal=false
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Name[en_US]=TurtleBot Dashboard
