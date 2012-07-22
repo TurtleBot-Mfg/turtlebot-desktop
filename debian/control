@@ -2,12 +2,12 @@ Source: turtlebot-desktop
 Section: x11
 Priority: optional
 Maintainer: I Heart Engineering <code@iheartengineering.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 5), cdbs
+Standards-Version: 3.9.3
 
 Package: turtlebot-desktop
 Architecture: any
-Depends: python, daemontools, libc6, build-essential, ros-fuerte-turtlebot, ros-fuerte-turtlebot-viz, ros-fuerte-turtlebot-apps
+Depends: ${misc:Depends}, turtlebot-ros
 Provides: turtlebot-desktop
 Description: TurtleBot Desktop Environment
 Conflicts: 
