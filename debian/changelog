@@ -1,3 +1,9 @@
+turtlebot-desktop (0.0.2) precise; urgency=low
+
+  * Fixes for lintian
+
+ -- I Heart Engineering <code@iheartengineering.com>  Sun, 22 Jul 2012 02:44:56 -0400
+
 turtlebot-desktop (0.0.1) UNRELEASED; urgency=low
 
   * Reinit repo for git-dch support
