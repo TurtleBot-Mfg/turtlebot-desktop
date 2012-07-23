@@ -7,3 +7,4 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 
 binary-install/turtlebot-desktop::
 	dh_icons
+	dh_installmime
