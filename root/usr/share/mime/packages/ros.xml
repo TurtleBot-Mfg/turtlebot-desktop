@@ -4,6 +4,5 @@
       <comment>ROS Launch File</comment>
       <comment xml:lang="en">ROS Launch File</comment>
       <glob pattern="*.launch"/>
-      <icon name="ros-launch"/>
    </mime-type> 
 </mime-info>
