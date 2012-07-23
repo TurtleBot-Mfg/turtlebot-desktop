@@ -1,30 +1,16 @@
-turtlebot-desktop (0.0.2~1.gbpb44d70) UNRELEASED; urgency=low
+turtlebot-desktop (0.0.3) precise; urgency=low
 
-  ** SNAPSHOT build @b44d700ccbe2812bd5e7efe049b2d5f6c45e4694 **
+  * First pass at adding mime support
+  * added .debhelper files to gitignore
+  * dh_installmime test
+  * moving mime install to be handled by cdbs
+  * cdbs doesn't seem to be working correctly. Trying dh directly
+  * Moved icons to hicolor instead of generating an entire new theme
+  * Fixed permissions on desktop files, merged config and dashboard icons, updated launcher to include ROS launcher
 
-  * UNRELEASED
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 06:48:46 -0400
 
- -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 05:58:40 -0400
-
-turtlebot-desktop (0.0.2~1.gbp6ba607) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @6ba6073822f9acde2e908f93ab50d4b9062b5305 **
-
-  * UNRELEASED
-
- -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 03:34:21 -0400
-
-turtlebot-desktop (0.0.2~1.gbp1b5423) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @1b5423e170446732ae2247a5d80f6bfdac22ed0c **
-
-  * UNRELEASED
-
- -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 03:23:57 -0400
-
-turtlebot-desktop (0.0.2~1.gbpecfaad) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @ecfaadb765894c0d482ee417ee43935f1aa561c4 **
+turtlebot-desktop (0.0.2) precise; urgency=low
 
   * First pass at adding mime support
   * added .debhelper files to gitignore
