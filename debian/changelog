@@ -1,10 +1,12 @@
-turtlebot-desktop (0.0.2~1.gbp11d452) UNRELEASED; urgency=low
+turtlebot-desktop (0.0.2~1.gbpecfaad) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @11d452c95a3865c6d578f331d7190b693712d0e2 **
+  ** SNAPSHOT build @ecfaadb765894c0d482ee417ee43935f1aa561c4 **
 
   * First pass at adding mime support
+  * added .debhelper files to gitignore
+  * dh_installmime test
 
- -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 02:30:28 -0400
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 02:55:36 -0400
 
 turtlebot-desktop (0.0.2) precise; urgency=low
 
