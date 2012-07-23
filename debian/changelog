@@ -1,3 +1,11 @@
+turtlebot-desktop (0.0.2~1.gbp11d452) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @11d452c95a3865c6d578f331d7190b693712d0e2 **
+
+  * First pass at adding mime support
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 02:30:28 -0400
+
 turtlebot-desktop (0.0.2) precise; urgency=low
 
   * Fixes for lintian

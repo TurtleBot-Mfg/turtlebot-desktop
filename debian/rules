@@ -3,4 +3,5 @@
 
 export DH_ALWAYS_EXCLUDE=CVS:.svn:.git
 
+dh_installmime
 include /usr/share/cdbs/1/rules/debhelper.mk
