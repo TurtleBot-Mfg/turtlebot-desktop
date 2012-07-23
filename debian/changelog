@@ -1,3 +1,11 @@
+turtlebot-desktop (0.0.2~1.gbpb44d70) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @b44d700ccbe2812bd5e7efe049b2d5f6c45e4694 **
+
+  * UNRELEASED
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 05:58:40 -0400
+
 turtlebot-desktop (0.0.2~1.gbp6ba607) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @6ba6073822f9acde2e908f93ab50d4b9062b5305 **

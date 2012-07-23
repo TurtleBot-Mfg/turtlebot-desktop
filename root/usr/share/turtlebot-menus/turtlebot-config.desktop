@@ -3,7 +3,7 @@
 Name=turtlebot-config
 GenericName=TurtleBot Configuration Tool
 Comment=Configuration Tool for TurtleBot
-Icon=/usr/share/icons/TurtleBot/scalable/apps/turtlebot-config.svg
+Icon=turtlebot-config
 Exec=bash -i -c "gksudo turtlebot-config -D TurtleBot\ Config"
 Terminal=false
 Categories=Development;Science;Education;

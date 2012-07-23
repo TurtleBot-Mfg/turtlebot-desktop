@@ -3,7 +3,7 @@
 Name=turtlebot-dashboard
 GenericName=TurtleBot Dashboard
 Comment=Dashboard for TurtleBot
-Icon=/usr/share/icons/TurtleBot/scalable/apps/turtlebot-dashboard.svg
+Icon=turtlebot-dashboard
 Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
 Terminal=false
 Categories=Development;Science;Education;

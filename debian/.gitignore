@@ -3,3 +3,4 @@ turtlebot-desktop.debhelper.log
 turtlebot-desktop.substvars
 files
 *.debhelper
+stamp-autotools-files

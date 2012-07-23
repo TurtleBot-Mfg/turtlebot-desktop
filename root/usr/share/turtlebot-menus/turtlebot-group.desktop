@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=turtlebot
+Type=Application
+Keywords=Science;Education;Robotics;Robot
+Categories=Development;Science;Education;
+Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
+Name=TurtleBot
+GenericName=Robot Software
+Comment=TurtleBot Robot Software Suite
+
+X-Ayatana-Desktop-Shortcuts=Dashboard;Config
+
+[Dashboard Shortcut Group]
+Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
+Name=turtlebot-dashboard
+GenericName=TurtleBot Dashboard
+Comment=Dashboard for TurtleBot
+TargetEnvironment=Unity
+
+[Config Shortcut Group]
+Exec=bash -i -c "gksudo turtlebot-config -D TurtleBot\ Config"
+Name=turtlebot-config
+GenericName=TurtleBot Configuration Tool
+Comment=Configuration Tool for TurtleBot
+TargetEnvironment=Unity

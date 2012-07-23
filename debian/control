@@ -10,4 +10,4 @@ Architecture: any
 Depends: ${misc:Depends}, turtlebot-ros
 Provides: turtlebot-desktop
 Description: TurtleBot Desktop Environment
-Conflicts: 
+ This provides gui tools for operating a TurtleBot.
