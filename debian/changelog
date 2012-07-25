@@ -6,7 +6,8 @@ turtlebot-desktop (0.0.3) precise; urgency=low
   * moving mime install to be handled by cdbs
   * cdbs doesn't seem to be working correctly. Trying dh directly
   * Moved icons to hicolor instead of generating an entire new theme
-  * Fixed permissions on desktop files, merged config and dashboard icons, updated launcher to include ROS launcher
+  * Fixed permissions on desktop files, merged config and dashboard icons
+  * updated launcher to include ROS launcher
 
  -- I Heart Engineering <code@iheartengineering.com>  Mon, 23 Jul 2012 06:48:46 -0400
 
