@@ -1,3 +1,10 @@
+turtlebot-desktop (0.0.4) precise; urgency=low
+
+  * Attempting to fix conflict Configuration file `/etc/gnome/defaults.list'
+  * Split ROS packages from TurtleBot packages
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 26 Jul 2012 21:02:27 -0400
+
 turtlebot-desktop (0.0.3) precise; urgency=low
 
   * First pass at adding mime support
