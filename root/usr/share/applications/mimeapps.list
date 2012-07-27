@@ -1,6 +1,0 @@
-[Added Associations]
-application/x-vmware-vm=gedit.desktop;
-application/x-ros-launch=gedit.desktop;
-
-[Default Applications]
-application/x-ros-launch=ros-roslaunch.desktop

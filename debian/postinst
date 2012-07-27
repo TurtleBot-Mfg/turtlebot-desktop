@@ -3,11 +3,13 @@
 case "$1" in
     'configure')
 
-        xdg-desktop-menu install --mode system /usr/share/turtlebot-menus/ros-Robotics.directory /usr/share/turtlebot-menus/*.desktop
+        xdg-desktop-menu install --mode system /usr/share/turtlebot-desktop/*.desktop
 	xdg-desktop-menu install --mode system /usr/share/applications/libreoffice-group.desktop
-	xdg-desktop-menu install --mode system /usr/share/applications/ros-roslaunch.desktop
+	update-desktop-database
 	glib-compile-schemas /usr/share/glib-2.0/schemas
-#        xdg-desktop-icon install /usr/share/turtlebot-menus/turtlebot*.desktop
+#        xdg-desktop-icon install /usr/share/turtlebot-desktop/turtlebot*.desktop
+#        xdg-mime install --mode system /usr/share/turtlebot-desktop/ros-roslaunch.xml
+#        xdg-mime default ros-roslaunch.desktop application/x-ros-launch
 
         ;;
 

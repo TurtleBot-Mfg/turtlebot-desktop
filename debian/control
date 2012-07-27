@@ -7,8 +7,7 @@ Standards-Version: 3.9.3
 
 Package: turtlebot-desktop
 Architecture: any
-Depends: ${misc:Depends}, turtlebot-ros
+Depends: ${misc:Depends}, turtlebot-ros, ros-system-workstation
 Provides: turtlebot-desktop
-Recommends: desktop-file-utils
 Description: TurtleBot Desktop Environment
  This provides gui tools for operating a TurtleBot.
