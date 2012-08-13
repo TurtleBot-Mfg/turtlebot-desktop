@@ -5,21 +5,21 @@ Icon=turtlebot
 Type=Application
 Keywords=Science;Education;Robotics;Robot
 Categories=Development;Science;Education;
-Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
+Exec=bash -i turtlebot-dashboard
 Name=TurtleBot
 GenericName=Robot Software
 Comment=TurtleBot Robot Software Suite
 
-X-Ayatana-Desktop-Shortcuts=Dashboard;Config
+Actions=Dashboard;Config;
 
-[Dashboard Shortcut Group]
-Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun turtlebot_dashboard turtlebot_dashboard"
+[Desktop Action Dashboard]
+Exec=bash -i turtlebot-dashboard
 Name=turtlebot-dashboard
 GenericName=TurtleBot Dashboard
 Comment=Dashboard for TurtleBot
 TargetEnvironment=Unity
 
-[Config Shortcut Group]
+[Desktop Action Config]
 Exec=bash -i -c "gksudo turtlebot-config -D TurtleBot\ Config"
 Name=turtlebot-config
 GenericName=TurtleBot Configuration Tool
