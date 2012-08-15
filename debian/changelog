@@ -1,3 +1,11 @@
+turtlebot-desktop (0.0.5~1.gbp13636e) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @13636e77c858e414a74c8ab8628d8c4854d5a650 **
+
+  * cleaning up turtlebot-dashboard launcher to support error messages and notification
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 04:56:35 -0400
+
 turtlebot-desktop (0.0.4) precise; urgency=low
 
   * Attempting to fix conflict Configuration file `/etc/gnome/defaults.list'
