@@ -1,5 +1,4 @@
 #!/bin/bash
-source /etc/ros/setup.bash
 
 `rostopic list >& /dev/null`
 
@@ -7,5 +6,5 @@ if [ $? -ne 0 ]; then
 	zenity --error --title "TurtleBot Dashboard" --text="Failed to contact master at $ROS_MASTER_URI"
 else
 	notify-send -i turtlebot-dashboard "Starting TurtleBot Dashboard"
-	rosrun turtlebot_dashboard turtlebot_dashboard
+	roslaunch turtlebot_dashboard turtlebot_dashboard.launch
 fi

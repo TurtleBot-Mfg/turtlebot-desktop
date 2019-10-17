@@ -1,0 +1,2 @@
+[org.gnome.shell]
+favorite-apps = [ 'ubiquity.desktop', 'firefox.desktop', 'thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'org.gnome.Software.desktop', 'yelp.desktop', 'ubuntu-amazon-default.desktop', 'gnome-terminal.desktop', 'turtlebot-group.desktop', 'ros-group.desktop' ]

@@ -20,7 +20,7 @@ Comment=Dashboard for TurtleBot
 TargetEnvironment=Unity
 
 [Desktop Action Config]
-Exec=bash -i -c "gksudo turtlebot-config -D TurtleBot\ Config"
+Exec=bash -i -c "gedit $HOME/.config/bashrc.d/70_turtlebot_loadout"
 Name=turtlebot-config
 GenericName=TurtleBot Configuration Tool
 Comment=Configuration Tool for TurtleBot
