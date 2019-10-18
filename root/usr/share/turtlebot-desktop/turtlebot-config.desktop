@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=turtlebot-dashboard
-GenericName=TurtleBot Dashboard
-Comment=Dashboard for TurtleBot
-Icon=turtlebot-dashboard
-Exec=bash -i turtlebot-dashboard
+Name=turtlebot-config
+GenericName=TurtleBot Config
+Comment=Configure TurtleBot Loadout
+Icon=turtlebot-config
+Exec=bash -i -c "gedit $HOME/.config/bashrc.d/70_turtlebot_loadout"
 Terminal=false
 Categories=Development;Science;Education;
 X-Ubuntu-Category-Secondary=Robotics;
@@ -13,4 +13,4 @@ Version=1.0
 X-DCOP-ServiceType=none
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-Name[en_US]=TurtleBot Dashboard
+Name[en_US]=TurtleBot Config
