@@ -1,0 +1,2 @@
+[com.canonical.Unity.Launcher]
+favorites=['ubiquity.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'org.gnome.Software.desktop', 'ubuntu-amazon-default.desktop', 'unity-control-center.desktop', 'gnome-terminal.desktop', 'turtlebot-group.desktop', 'ros-group.desktop']

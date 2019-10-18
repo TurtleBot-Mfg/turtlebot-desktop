@@ -14,14 +14,14 @@ Actions=Dashboard;Config;
 
 [Desktop Action Dashboard]
 Exec=bash -i turtlebot-dashboard
-Name=turtlebot-dashboard
+Name=Open Dashboard
 GenericName=TurtleBot Dashboard
 Comment=Dashboard for TurtleBot
 TargetEnvironment=Unity
 
 [Desktop Action Config]
 Exec=bash -i -c "gedit $HOME/.config/bashrc.d/70_turtlebot_loadout"
-Name=turtlebot-config
+Name=Configure Hardware Loadout
 GenericName=TurtleBot Configuration Tool
 Comment=Configuration Tool for TurtleBot
 TargetEnvironment=Unity

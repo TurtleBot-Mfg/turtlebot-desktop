@@ -1,20 +1,12 @@
 #!/bin/bash
+set -e
 
-case "$1" in
-    'configure')
-
-        xdg-desktop-menu install --mode system /usr/share/turtlebot-desktop/*.desktop
-	xdg-desktop-menu install --mode system /usr/share/applications/libreoffice-group.desktop
-	update-desktop-database
-	glib-compile-schemas /usr/share/glib-2.0/schemas
+if [ "$1" = "configure" ]; then
+    xdg-desktop-menu install --mode system /usr/share/turtlebot-desktop/*.desktop
+    update-desktop-database
+    glib-compile-schemas /usr/share/glib-2.0/schemas
 #        xdg-desktop-icon install /usr/share/turtlebot-desktop/turtlebot*.desktop
 #        xdg-mime install --mode system /usr/share/turtlebot-desktop/ros-roslaunch.xml
 #        xdg-mime default ros-roslaunch.desktop application/x-ros-launch
-
-        ;;
-
-    *)
-        ;;
-
-esac
+fi
 #DEBHELPER#

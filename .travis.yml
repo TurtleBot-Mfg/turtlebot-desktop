@@ -1,0 +1,15 @@
+language: minimal
+matrix:
+  include:
+    - dist: xenial
+      script:
+        - bash -c 'echo NO-OP'
+
+deploy:
+  - provider: launchpad
+    slug: "~hxr-io/turtlebot-desktop/+git/xenial"
+    oauth_token:
+      secure: "i1th2YMT00oDqcTMOqVHm0r6Ti8I27gtKigsS5ktkWHuIlluTEt2Ng49JDvYZu6JKVqYacJjB5VdshiW8xMOTljXC4j3lNJxFKzuaMQmgxEcXA6smUPrPo1JQWM9HZOtCeIYp+GIKd6F+vCXxmUZR7zbapgqAon/UFjQSUTASf8="
+    oauth_token_secret:
+      secure: "eDEX49R3qh2q4JmjdSvJKO4sUnni6LDRoDLATLsc6udu4EzaNv52N8gdvkJo6IiGonOVB4HiwpkZX9jLHKnKW1fssdqr7wKe2Wx5lJZHsbW2OyY8MHW8rIj06heTISmnxvt0BVr6g5Zkl61PVBVvdcNQnLmnGxrH2fkp+Pj0wdE="
+
