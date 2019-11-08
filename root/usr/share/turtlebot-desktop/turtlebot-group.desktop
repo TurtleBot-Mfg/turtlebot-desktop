@@ -20,7 +20,7 @@ Comment=Dashboard for TurtleBot
 TargetEnvironment=Unity
 
 [Desktop Action Config]
-Exec=bash -i -c "gedit $HOME/.config/bashrc.d/70_turtlebot_loadout"
+Exec=bash -i -c "gedit $HOME/.ros/environment"
 Name=Configure Hardware Loadout
 GenericName=TurtleBot Configuration Tool
 Comment=Configuration Tool for TurtleBot

@@ -12,10 +12,10 @@ ROS Launch File Icon based on
 `/usr/share/icons/Humanity/mimes/128/gnome-fs-regular.svg`
 
 ## PPA
-[Stable](https://code.launchpad.net/~hxr-io/+archive/ubuntu/turtlebot) 
+[Stable](https://code.launchpad.net/~hxr-io/+archive/ubuntu/turtlebot)  
 `sudo add-apt-repository ppa:hxr-io/turtlebot`
 
-[Testing](https://code.launchpad.net/~hxr-io/+archive/ubuntu/turtlebot-testing) 
+[Testing](https://code.launchpad.net/~hxr-io/+archive/ubuntu/turtlebot-testing)  
 `sudo add-apt-repository ppa:hxr-io/turtlebot-testing`
 
 # Sponsors
